@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_script">
+    <sys_ui_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <global>false</global>
+        <name>x_snc_createnotes.HighCharts</name>
+        <script><![CDATA[var x_snc_createnotes = x_snc_createnotes || {};
+
+x_snc_createnotes.HighCharts = (function() {
+	"use strict";
+
+/* set your private variables and functions here. For example: 
+	var privateVar = 0; 
+	function private_function() {
+		return ++privateVar;
+	}
+*/
+
+/* Share variables between multiple UI scripts by adding them to your scope object. For example: 
+	x_snc_createnotes.sharedVar = 0; 
+
+ Then access them in your scripts the same way. For example: 
+	function get_shared() {
+		return x_snc_createnotes.sharedVar;
+	}
+*/
+
+	return {
+
+/* set your public API here. For example:
+		incrementAndReturnPrivateVar: function() {
+			return private_function();
+		},
+*/
+		type:  "HighCharts"
+	};
+})();
+]]></script>
+        <script_name>HighCharts</script_name>
+        <sys_class_name>sys_ui_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-12-14 10:40:52</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>622f2551db430300bce776efbf961910</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_createnotes.HighCharts</sys_name>
+        <sys_package display_value="CreateNotes" source="x_snc_createnotes">df5fd9a5090232007f44e1046c8ff69f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="CreateNotes">df5fd9a5090232007f44e1046c8ff69f</sys_scope>
+        <sys_update_name>sys_ui_script_622f2551db430300bce776efbf961910</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-12-14 10:40:52</sys_updated_on>
+        <use_scoped_format>true</use_scoped_format>
+    </sys_ui_script>
+</record_update>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="pm_portfolio" label="Portfolio" max_length="40" name="x_snc_createnotes_portfolio" type="collection">
+        <element label="MANAGED BY" max_length="40" name="managed_by" type="string"/>
+    </element>
+</database>
